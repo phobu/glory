@@ -8,7 +8,7 @@
       <meta property="og:url" content="./index.html" />
       <meta
         property="og:image"
-        content="http://ownfr.vercel.app/assets/hope.png"
+        content="http://glorygg.vercel.app/assets/lostfr.png"
       />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="twitter:card" content="summary_large_image" />
@@ -32,7 +32,7 @@
       />
       <meta
         http-equiv="refresh"
-        content="0; url=http://ownfr.vercel.app/home/"
+        content="0; url=http://glorygg.vercel.app/home/"
       />
     </head>
   </html>
