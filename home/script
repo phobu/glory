@@ -3,11 +3,11 @@ const help = document.querySelector(".help");
 const cmd = document.querySelector(".cmds");
 
 cmd.addEventListener("click", function () {
-  window.location = "http://ownfr.vercel.app/cmds/";
+  window.location = "http://glorygg.vercel.app/cmds/";
 });
 invite.addEventListener("click", function () {
-  window.location = "http://ownfr.vercel.app/buy/";
+  window.location = "http://glorygg.vercel.app/buy/";
 });
 help.addEventListener("click", function () {
-  window.location = "http://ownfr.vercel.app/help/";
+  window.location = "http://glorygg.vercel.app/help/";
 });
