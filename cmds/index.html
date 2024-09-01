@@ -26,12 +26,13 @@
         <div class="command-section">
             <ul>
                 <li class="closed" id="1" onclick="change_board(this)">Moderation</li>
-                <li class="open" id="2" onclick="change_board(this)">Roleplay</li>
-                <li class="open" id="3" onclick="change_board(this)">Economy</li>
+                <li class="open" id="2" onclick="change_board(this)">Economy</li>
+                <li class="open" id="3" onclick="change_board(this)">Roleplay</li>
                 <li class="open" id="4" onclick="change_board(this)">Fun</li>
                 <li class="open" id="5" onclick="change_board(this)">Utility</li>
                 <li class="open" id="6" onclick="change_board(this)">Giveaway</li>
                 <li class="open" id="7" onclick="change_board(this)">Music</li>
+                <li class="open" id="8" onclick="change_board(this)">Voice</li>
             </ul>
         </div>
         <div class="command-list">
@@ -381,7 +382,7 @@
                 <tr>
                     <td>play</td>
                     <td>Play any song with the 3 sources Youtube Spotify Soundcloud</td>
-                    <td>;play [prefix]</td>
+                    <td>;play [song name or link]</td>
                 </tr>
                 <tr>
                     <td>youtube</td>
@@ -402,6 +403,38 @@
                     <td>pause</td>
                     <td>pause the current song playing</td>
                     <td>;pause</td>
+                </tr>
+            </table>
+                <table class="commands" id="board8">
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                    <th>Usage</th>
+                </tr>
+                <tr>
+                    <td>vc-lock</td>
+                    <td>Locks the current vc you're in</td>
+                    <td>;vc-lock</td>
+                </tr>
+                <tr>
+                    <td>vc-unlock</td>
+                    <td>Unlocks the current vc you're in</td>
+                    <td>;vc-unlock</td>
+                </tr>
+                <tr>
+                    <td>vc-hide</td>
+                    <td>Hides the current vc you're in</td>
+                    <td>;vc-hide</td>
+                </tr>
+                <tr>
+                    <td>vc-unhide</td>
+                    <td>Makes the current vc you're in visible to all users.</td>
+                    <td>;vc-unhide</td>
+                </tr>
+                <tr>
+                    <td>vc-rename</td>
+                    <td>Renames the current voice channel name that you're in</td>
+                    <td>;vc-rename [name]</td>
                 </tr>
             </table>
         </div>
